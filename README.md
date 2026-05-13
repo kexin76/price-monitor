@@ -13,17 +13,17 @@ Settings:
 
 Budget:
 
-Keywords or grades for the model kits, along with the minimum and maximum price for each grade.
+- Keywords or grades for the model kits, along with the minimum and maximum price for each grade.
 
 Watch list:
 
-A list of URLs of individual items with the website the product is from.
+- A list of URLs of individual items with the website the product is from.
 
 GundamPlanet:
 
-The base url, which contains all gunpla products.
-Limits for how many products to load per page.
+- The base url, which contains all gunpla products.
+- Limits for how many products to load per page.
 
 USA Gundam Store:
 
-Collections of URLs for different categories, can add more URLs for more gunpla categories.
+- Collections of URLs for different categories, can add more URLs for more gunpla categories.
