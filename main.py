@@ -215,7 +215,10 @@ def gundamPlanet():
                 "price_drop": price_drop,
                 "seen_price": entry["price"] if price_drop else None
             })
-            print(f"[gundamplanet] MATCH: {title} ${price}" + (" (price drop)" if price_drop else ""))
+            message = f"[gundamplanet] MATCH: {title} ${price}"
+            if price_drop:
+                message += " (price drop)"
+            print(message)
 
         page += 1
         time.sleep(1)
@@ -286,7 +289,7 @@ def usaGundam():
                 })
                 message = f"[usagundam] MATCH: {title} ${price}"
                 if price_drop:
-                    message + " (price drop)"
+                    message += " (price drop)"
                 print(message)
 
             page += 1
